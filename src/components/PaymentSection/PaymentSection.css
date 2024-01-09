@@ -1,0 +1,326 @@
+/* PaymentSection.css */
+
+/* Main Container */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-top: -60px;
+  }
+  
+  /* Top Section */
+  .top-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-text {
+    font-size: small;
+    margin-right: 7px; /* Add margin between Payment and How it works */
+  }
+  
+  .how-it-works {
+    font-size: small;
+    margin-right: 210px;/* Add margin between How it works and Search bar */
+  }
+  
+  .search-bar {
+    width: 300px; /* Adjust the width to make the search bar bigger */
+    padding: 5px; /* Increase padding for a larger appearance */
+    border: 0.1px solid #ccc;
+    border-radius: 5px;
+    font-size: small;
+    margin-right: 450px;
+
+  }
+
+  .creme-rectangle {
+    background-color: #f5f5f5; /* Creme color */
+    padding: 10px;
+    margin-right: 30px;
+    width: 450px; 
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+
+  .order-number,
+.label {
+  font-size: medium;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.search-bar::before {
+    content: "\e8b6"; /* Unicode for Bootstrap search icon */
+    font-family: 'bootstrap-icons'; /* Use the correct font family */
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.online-order-section {
+    display: flex;
+  }
+  
+  .amount-rec{
+    display: flex;
+  }
+
+.amount {
+  font-size: medium; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+
+  
+  
+  /* Use appropriate icon classes for Chat Icon and Down Triangle Icon */
+  .chat-icon::before {
+    content: "\1F4AC"; /* Unicode for chat icon, you can replace it with your actual icon */
+    margin-right: 7px;
+  }
+  
+  .down-triangle-icon::before {
+    content: "\25BE"; /* Unicode for down triangle icon, you can replace it with your actual icon */
+  }
+  
+  /* Overview Section */
+  .overview-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Online Order Section */
+  .online-order-section {
+    margin-bottom: 10px;
+  }
+  
+  .white-rectangle {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Transactions Section */
+  .transactions-section {
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: small;
+    margin-bottom: 10px;
+  }
+  
+  .order-search {
+    margin-right: 5px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .search-and-icons {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+  }
+  
+  
+  .icon-container {
+    display: flex;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  .sort-icon,
+  .download-icon {
+    margin-right: 10px; /* Adjust margin as needed */
+    cursor: pointer; /* Add pointer cursor for better user experience */
+  }
+  
+  .sort-icon{
+    margin-left: 850px;
+  }
+
+  /* Add these styles to your existing styles or create a new CSS file */
+
+  /* Add these styles to your existing styles or create a new CSS file */
+
+.data-table {
+    /* Add any other styles for the data table */
+  }
+  
+  .table-head {
+    display: flex;
+    background-color: #f8f9fa; /* Background color of the table head */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    margin-bottom: 10px; /* Add some margin between table head and rows */
+  }
+  
+  .table-header {
+    flex: 1;
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text */
+    border-right: 0px solid #dee2e6; /* Add a border between headers */
+    font-size: 12px; 
+  }
+  
+  /* Style the last header to remove the right border */
+  .table-header:last-child {
+    border-right: none;
+  }
+  
+  .table-row {
+    display: flex;
+    background-color: #fff; /* Background color for rows */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for rows */
+    border-radius: 8px; /* Add border-radius for rounded corners on rows */
+    margin-bottom: 10px; /* Add some margin between rows */
+    font-size: 12px; 
+  }
+  
+  .table-row > div {
+    flex: 1;
+    padding: 1.5px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text */
+    border-right: 0px solid #dee2e6; /* Add a border between columns */
+  }
+  
+  /* Style the last column to remove the right border */
+  .table-row > div:last-child {
+    border-right: none;
+  }
+  
+  div a.table-link {
+    text-decoration: none;
+    color: deepskyblue;
+  }
+  
+  /* Assuming you have a container div around your navigation buttons */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #2980b9;
+  }
+  
+  .navigation-buttons button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .navigation-buttons button.active {
+    background-color: #2980b9;
+  }
+  
+  /* Optional: Add some spacing between buttons */
+  .navigation-buttons button + button {
+    margin-left: -5px;
+  }
+  .how-it-works {
+    font-size: 14px;
+    color: #888;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+  }
+  
+  .how-it-works::before {
+    content: '?'; /* Use a question mark or your preferred icon */
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: rgba(83, 70, 70, 0.301); /* Circle background color */
+    color: #fff;
+    border-radius: 50%; /* Make it a circle */
+    font-size: 12px;
+    text-align: center;
+    margin-right: 5px; /* Adjust spacing between icon and text */
+  }
+  
+  .how-it-works:hover::after {
+    content: "This is additional information";
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .how-it-works:hover::after {
+    opacity: 1;
+  }
+
+  .table-head {
+    display: flex;
+  }
+  
+ 
+  .transaction-fees {
+    position: relative;
+  }
+  
+  .info-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #b3b3b4;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80px;
+  }
+  
+  .info-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #16191c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .transaction-fees:hover .info-text {
+    display: block;
+  }
+  

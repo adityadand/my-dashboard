@@ -1,0 +1,142 @@
+/* Sidebar.css */
+
+/* Sidebar.css */
+
+.tab.active {
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for the light effect */
+}
+
+
+.store-info img {
+  width: 35px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-top: 15px;
+}
+
+
+.tab img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+
+.sidebar-container {
+  width: 100px;
+  height: 100vh;
+  background-color: #2f4562 !important; /* Prussian Blue */
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-container.collapsed .tabs {
+  display: none;
+}
+
+.toggle-arrows {
+  font-size: 12px; /* Adjust the font size as needed */
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.store-info {
+  display: flex;
+  align-items: center;
+  
+}
+
+.store-details {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.store-name {
+  font-size: 10px;
+  margin: 0;
+}
+
+.visit-store-link {
+  font-size: 8px;
+  margin-top: -25px; /* Adjust margin as needed */
+  margin-left: -2px;
+  color: white !important; /* Set link color to white */
+  text-decoration: none
+}
+
+.tabs {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  font-size: 12px;
+}
+
+.tab img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.tab span {
+  font-size: 14px;
+  font-size: 10px;
+}
+
+.tab i {
+  margin-right: 10px; /* Add space between icon and text */
+    font-size: 10px;
+}
+
+.bottom-info {
+  background: rgba(255, 255, 255, 0.25); /* Adjust the alpha value for a dimmer effect */
+  padding: 5px; /* Increase padding for a bigger rectangle */
+  border-radius: 10px; /* Adjust the border radius for a rounded rectangle */
+  position: relative;
+  bottom: 30px; /* Adjust the distance from the bottom */
+  left: 40%;
+  top: 40%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  color: white; /* Text color */
+  justify-content: space-between;
+  width: 90%; /* Adjust the width to make the rectangle smaller from the right side */
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  flex-grow: 1px;
+  margin-top: 5px;
+}
+
+.wallet-info svg {
+  margin-right: 5px;
+  
+}
+
+.credit-info {
+  text-align: left;
+  margin-top: -10px;
+}
+
+.credit-info p {
+  margin: 0; /* Remove any default margins */
+  font-size:8.5px; /* Adjust font size if needed */
+}

@@ -1,0 +1,29 @@
+/* components/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content-container {
+  /* Remove the width property */
+  /* margin-left: 250px; (Optionally remove this too) */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
