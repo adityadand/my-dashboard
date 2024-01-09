@@ -21,7 +21,7 @@ Make sure you have Node.js and npm installed on your machine.
 
    ```bash
    git clone https://github.com/adityadand/my-dashboard.git
-   cd my dashboard
+   cd my-dashboard
 
 Install dependencies:
   npm install
@@ -29,12 +29,5 @@ Install dependencies:
 Start the app:
   npm start
 
-
-Usage
-Open your browser and navigate to http://localhost:3000.
-Explore the Transactions section with the following functionalities:
-Search: Use the search bar to find specific order IDs.
-Sort: Click the "Sort by Date" button to toggle sorting by order date.
-Navigate: Use the Previous and Next buttons to move through your data.
-Download: Click the download icon to save the currently displayed data as a PDF.
+Open your browser and navigate to http://localhost:3000 to start using app
 
